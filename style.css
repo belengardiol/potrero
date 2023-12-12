@@ -1,0 +1,990 @@
+.logo-fondo-negro {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    height: 200px;
+    width: 208px;
+    top: 10%;
+    right: 85%;
+    bottom: 10%;
+    left: 3%;
+    
+}
+.menu {
+    position: absolute;
+    top: 34%;
+    right: 13%;
+    bottom: 35%;
+    left: 26%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+    }
+
+.btn-outline-success {
+    position: absolute;
+    display:flex;
+    justify-content: flex-end;
+    
+    
+    }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 360px;
+    width: 100%;
+    
+    
+}
+
+.titulo-sitio {
+        position: absolute;
+        top: 200px;
+        font-family: var(--font-cantata-one);
+        font-size: var(--font-size-45xl);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 50px;
+        width: 295px;
+        height: 165px;
+        
+}
+.linea-y-subtitulo {
+    position: absolute;
+    top: 200px;
+    font-size: var(--font-size-base);
+    border-top: 2px solid var(--color-forestgreen);
+    box-sizing: border-box;
+    display: flex;
+    left: 65%;   
+    margin-top: 2px;
+    width: 386px;
+    height: 146px;
+    
+}
+
+
+
+.header-inicio {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    font-size: var(--font-size-5xl);
+    
+}
+
+.inicio {
+    position: relative;
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    z-index: 0;
+    font-size: var(--font-size-45xl);
+    
+}
+
+.img-chica-loto {
+    display: flex;
+    width: 50%;
+    float: right;    
+    
+}
+
+.por-que-tomar-clases-de-yoga {
+    display: absolute;
+    justify-content: center;
+    border-color: #282b28;
+    
+    
+}
+
+.h1-pq-tomar-clases,
+.pie-pq-tomar-clases {
+    position: absolute;
+    left: 98px;
+    display: inline-block;
+}
+
+.h1-pq-tomar-clases {
+    top: 128px;
+    font-size: var(--font-size-45xl);
+    color: var(--color-black);
+    width: 622px;
+}
+
+.pie-pq-tomar-clases {
+    top: 320px;
+    color: #696767;
+    width: 510px;
+    height: 161px;
+}
+
+.icono-check,
+.icono-check1,
+.icono-check2,
+.icono-check3,
+.icono-check4 {
+    position: absolute;
+    top: 498px;
+    left: 98px;
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.icono-check1,
+.icono-check2,
+.icono-check3,
+.icono-check4 {
+    top: 618px;
+}
+
+.icono-check2,
+.icono-check3,
+.icono-check4 {
+    top: 558px;
+}
+
+.icono-check3,
+.icono-check4 {
+    top: 678px;
+}
+
+.icono-check4 {
+    top: 738px;
+}
+
+.beneficios-del-yoga {
+    position: relative;
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+    color: var(--color-gray-100);
+    font-family: var(--font-cantata-one);
+}
+
+.reduce-el-estres {
+    position: absolute;
+    top: 495px;
+    left: 148px;
+    display: inline-block;
+    width: 410px;
+    height: 41px;
+}
+
+.aumenta-la-elasticidad,
+.ayuda-a-la,
+.experimenta-mas-amor,
+.trae-paz-profunda {
+    position: absolute;
+    top: 552px;
+    left: 148px;
+    display: inline-block;
+    width: 410px;
+    height: 41px;
+}
+
+.ayuda-a-la,
+.experimenta-mas-amor,
+.trae-paz-profunda {
+    top: 613px;
+    width: 470px;
+}
+
+.experimenta-mas-amor,
+.trae-paz-profunda {
+    top: 678px;
+    width: 460px;
+}
+
+.trae-paz-profunda {
+    top: 738px;
+    width: 410px;
+}
+
+.beneficios-linea1,
+.beneficios-linea3,
+.beneficios-linea2,
+.beneficios-linea4 {
+    position: absolute;
+    top: 541.5px;
+    left: 97.5px;
+    border-top: 1px solid var(--color-whitesmoke-100);
+    box-sizing: border-box;
+    width: 511px;
+    height: 1px;
+}
+
+
+.beneficios-linea2
+{
+    top: 603.5px;
+    left: 96.5px;
+    width: 512px;
+}
+
+.beneficios-linea3 {
+    top: 666px;
+    width: 512px;
+    left: 96.5px;
+}
+
+.beneficios-linea4 {
+    top: 725px;
+    width: 512px;
+}
+
+.clases {
+    position: absolute;
+    left: 620px;
+    font-size: var(--font-size-45xl);
+    text-align: center;
+    display: inline-block;
+}
+
+.galeria-clases {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    z-index: 2;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-cantata-one);
+}
+
+.linea-clases-0,
+.linea-clases-3,
+.linea-clases-2,
+.linea-clases-1 {
+    position: absolute;
+    top: 65px;
+    left: 646px;
+    border-top: 2px solid var(--color-black);
+    box-sizing: border-box;
+    width: 127px;
+    height: 1px;
+}
+
+.linea-clases-1 {
+    top: 718px;
+    left: 261px;
+}
+
+.linea-clases-2 {
+    top: 718px;
+    left: 657px;
+}
+
+.linea-clases-3 {
+    left: 1052px;
+    top: 718px;
+}
+
+.imagen-1-galeria,
+.imagen-2-galeria,
+.imagen-3-galeria,
+.imgs-cursos {
+    position: absolute;
+    height: 275px;
+}
+.imagen-1-galeria {
+    top: 0;
+    left: 0;
+}
+
+.imagen-2-galeria {
+    top: 0;
+    left: 395px;
+    width: 396px;
+}
+
+
+.imagen-3-galeria {
+    top: 0;
+    left: 791px;
+    width: 395px;
+
+}
+
+.imgs-cursos {
+    top: 413px;
+    left: 127px;
+    width: 1187px;
+}
+
+.entrenamiento-consciente,
+.hatha-yoga-y,
+.yoga-danza {
+    position: absolute;
+    top: 762px;
+    left: 159px;
+    display: inline-block;
+    width: 325px;
+    height: 25px;
+}
+
+.yoga-danza {
+    left: 558px;
+    width: 162px;
+}
+
+.entrenamiento-consciente {
+    top: 761px;
+    left: 953px;
+    width: 325px;
+}
+
+.lorem-ipsum-dolor1,
+.lorem-ipsum-dolor2,
+.lorem-ipsum-dolor3 {
+    position: absolute;
+    top: 811px;
+    left: 159px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    width: 318px;
+    height: 87px;
+}
+
+.lorem-ipsum-dolor2,
+.lorem-ipsum-dolor3 {
+    left: 562px;
+}
+
+.lorem-ipsum-dolor3 {
+    left: 960px;
+}
+
+.boton-registrarse1,
+.boton-registrarse2,
+.boton-registrarse3 {
+    position: absolute;
+    height: 10%;
+    width: 15%;
+    top: 90%;
+    right: 70%;
+    bottom: 3%;
+    left: 10%;
+    
+}
+.boton-registrarse1 {
+    left: 246px;
+}
+
+.boton-registrarse2 {
+    
+    left: 645px;
+}
+
+.boton-registrarse3 {
+    
+    left: 1040px;
+    
+}
+
+
+.hola-soy-andrea {
+    position: absolute;
+    top: 423px;
+    left: 491px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 457px;
+    height: 89px;
+}
+
+.lorem-acerca-de-mi {
+    top: 496px;
+    left: 166px;
+    font-size: var(--font-size-5xl);
+    width: 1130px;
+    height: 284px;
+}
+
+.redes {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 680px;
+    margin-left: -372px;
+}
+
+.acerca-de-mi-circulo-wp,
+.acerca-de-mi-circulo-ig,
+.acerca-de-mi-circulo-yt {
+    position: absolute;
+    top: 773px;
+    left: 544px;
+    border-radius: 50%;
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 62px;
+    height: 62px;
+}
+
+.acerca-de-mi-circulo-ig,
+.acerca-de-mi-circulo-yt {
+    left: 657px;
+}
+
+.acerca-de-mi-circulo-ig {
+    left: 769px;
+}
+
+
+.acerca-de-mi {
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    overflow: hidden;
+    z-index: 3;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-cantata-one);
+}
+
+.separador-ancho {
+    position: absolute;
+    margin: 0;
+    background-color: #282b28;
+    width: 1440px;
+    height: 200px;
+}
+
+
+.avatar1,
+.avatar2,
+.avatar3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar2,
+.avatar3{
+    top: 72px;
+    left: 437px;
+}
+
+.avatar3 {
+    top: 0;
+    left: 886px;
+}
+
+.avatar-opiniones {
+    position: absolute;
+    top: 806px;
+    left: 103px;
+    width: 986px;
+    height: 172px;
+    
+}
+
+
+.lorem-1 {
+    position: absolute;
+    top: 1px;
+    left: 886px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+}
+
+
+
+.texto-lorem {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.lorem-3 {
+    position: absolute;
+    top: 0;
+    left: 441px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+}
+
+.texto-opiniones {
+    position: absolute;
+    top: 647px;
+    left: 93px;
+    width: 1226px;
+    height: 188px;
+}
+
+.estrellas{
+    color: var(--color-forestgreen);
+}
+
+.estrellas-3 {
+    position: absolute;
+    top: 578px;
+    left: 1022px;
+    width: 125px;
+    height: 26px;
+}
+
+
+.puntuacion-1,
+.puntuacion-2,
+.puntuacion-3,
+.estrellas-1,
+.estrellas-2{
+    position: absolute;
+    top: 579px;
+    left: 575px;
+    width: 125px;
+    height: 26px;
+    
+}
+
+
+.estrellas-1 {
+    top: 578px;
+    left: 134px;
+    
+}
+
+.puntuacion-1,
+.puntuacion-2,
+.puntuacion-3 {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 31px;
+    height: 37px;
+}
+
+.puntuacion-2,
+.puntuacion-3 {
+    top: 1px;
+    left: 441px;
+}
+
+.puntuacion-3 {
+    top: 0;
+    left: 888px;
+}
+
+.puntuaciones-opiniones {
+    position: absolute;
+    top: 572px;
+    left: 103px;
+    width: 919px;
+    height: 38px;
+    color: var(--color-gray-100);
+    z-index: 99;
+}
+
+.lineas-opiniones-icon {
+    position: absolute;
+    top: 414px;
+    left: 103px;
+    width: 50%;
+    height: 10%;
+    color: var(--color-gray-100);
+}
+
+.titulo-opiniones {
+    position: absolute;
+    top: 262px;
+    left: 99px;
+    font-size: 48px;
+    font-family: var(--font-cantata-one);
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 103px;
+}
+
+
+
+.opiniones {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 4;
+}
+
+.rect-blanco {
+    position: absolute;
+    top: 188px;
+    left: 546px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 788px;
+    height: 759px;
+}
+
+.boton-registrarse-child1 {
+    position: absolute;
+    height: 100%;
+    width: 99.48%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0.52%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.enviar {
+    position: absolute;
+    height: 91.11%;
+    width: 99.09%;
+    top: 4.88%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-registrarse4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.botn-enviar {
+    position: absolute;
+    top: 734px;
+    left: 610px;
+    
+}
+
+.rect-apellido,
+.rect-email,
+.rect-mensaje,
+.rect-nombre {
+    position: absolute;
+    top: 551px;
+    left: 610px;
+    background-color: var(--color-whitesmoke-200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 630px;
+    height: 157px;
+}
+
+.rect-apellido,
+.rect-email,
+.rect-nombre {
+    top: 409px;
+    height: 65px;
+}
+
+.rect-apellido,
+.rect-nombre {
+    top: 248px;
+    left: 946px;
+    width: 294px;
+}
+
+.rect-nombre {
+    left: 610px;
+}
+
+.email,
+.mensaje {
+    left: 0;
+    width: 95px;
+    height: 24px;
+}
+
+.mensaje {
+    position: absolute;
+    top: 302px;
+    display: inline-block;
+}
+
+.email {
+    top: 161px;
+}
+
+.apellido,
+.email,
+.nombre,
+.nombre1 {
+    position: absolute;
+    display: inline-block;
+}
+
+.apellido {
+    top: 108px;
+    left: 325px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+    width: 70px;
+    height: 16px;
+}
+
+.nombre,
+.nombre1 {
+    left: 0;
+}
+
+.nombre {
+    top: 108px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-100);
+    width: 73px;
+    height: 16px;
+}
+
+.nombre1 {
+    top: 0;
+    width: 95px;
+    height: 24px;
+}
+
+.datos-formulario {
+    position: absolute;
+    top: 210px;
+    left: 610px;
+    width: 395px;
+    height: 326px;
+}
+
+.rectangulo-verde-contacto {
+    position: absolute;
+    top: 188px;
+    left: 106px;
+    background-color: #498762;
+    box-shadow: 0 4px 4px #99ad9e;
+    width: 440px;
+    height: 759px;
+}
+
+.contacto-child {
+    position: absolute;
+    top: 473.5px;
+    left: 177.5px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 287px;
+    height: 1px;
+}
+
+.texto-rect-verde {
+    position: absolute;
+    top: 712px;
+    left: 178px;
+    color: var(--color-white);
+    display: inline-block;
+    width: 310px;
+    height: 208px;
+}
+
+.me-encantara-saber,
+.titulo-contacto {
+    position: absolute;
+    font-family: var(--font-cantata-one);
+    display: inline-block;
+}
+
+.me-encantara-saber {
+    top: 241px;
+    left: 192px;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    width: 268px;
+    height: 199px;
+}
+
+.titulo-contacto {
+    top: 47px;
+    left: 106px;
+    font-size: var(--font-size-45xl);
+    width: 418px;
+    height: 99px;
+}
+
+.contacto1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 5;
+}
+
+.registrarse4 {
+    position: absolute;
+    height: 35.37%;
+    width: 62.75%;
+    top: 31.71%;
+    left: 18.82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botn-subir,
+.boton-registrarse5 {
+    position: absolute;
+    height: 15.59%;
+    width: 17.71%;
+    top: 62.3%;
+    right: 17.29%;
+    bottom: 22.11%;
+    left: 65%;
+}
+
+.redes {
+    position: absolute;
+    display: flex;
+    top: 104px;
+    left: 927px;
+    width: 265px;
+}
+.get-quote-icon {
+    position: absolute;
+    margin: 0 !important;
+    top: 4329px;
+    left: 1120px;
+    width: 100px;
+    height: 100px;
+}
+.acerca-de2,
+.contacto2,
+.eventos2 {
+    position: absolute;
+    height: 11.63%;
+    width: 29.02%;
+    top: 83.33%;
+    left: 64.85%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.acerca-de2,
+.eventos2 {
+    height: 15.12%;
+    width: 25.91%;
+    top: 40.09%;
+    
+}
+
+.acerca-de2 {
+    height: 26.74%;
+    width: 35.23%;
+    top: 0;
+    left: 64.77%;
+}
+
+.cursos,
+.membresia2 {
+    left: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cursos {
+    position: absolute;
+    height: 15.12%;
+    width: 22.28%;
+    top: 84.88%;
+}
+
+.membresia2 {
+    height: 26.74%;
+    width: 35.23%;
+    top: 40.09%;
+}
+
+.inicio2,
+.membresia2,
+.menu2 {
+    position: absolute;
+    text-decoration: none;
+}
+
+
+.menu2 {
+    height: 67.68%;
+    width: 36.94%;
+    top: 15.85%;
+    right: 53.68%;
+    bottom: 16.46%;
+    left: 9.38%;
+    text-align: left;
+    color: var(--color-black);
+    
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 328px;
+    z-index: 6;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-forestgreen);
+    
+}
+
+.redes2 {
+        
+            display:flex;
+            justify-content: flex-end;
+            position: relative;
+            margin-right: 400px;
+            top: 50%;
+            color: black;
+}
+
+
+.sitio {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-bitter);
+}
+
+

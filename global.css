@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  
+  --font-bitter: Bitter;
+  --font-cantata-one: "Cantata One";
+
+ 
+  --font-size-5xl: 20px;
+  --font-size-45xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+
+
+
+  --color-black: #000;
+  --color-forestgreen: #45b750;
+  --color-white: #fff;
+  --color-gray-100: #838b84;
+  --color-whitesmoke-100: #f1f1f1;
+  --color-whitesmoke-200: #e6eae7;
+
+  /* Paddings */
+  --padding-3xs: 8px;
+
+  }
